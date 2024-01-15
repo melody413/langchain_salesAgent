@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$black: #202020;
+$white:#fff;
+
+body {
+  color: #fff;
+  background: #202020;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255,0.3) $black;
+}
+
+::selection {
+  color: $white;
+  background: $black;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  background: $black;
+  height: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255,0.3);
+}
+
+::-webkit-scrollbar-corner {
+  background:$black;
+}
+
+code {
+  color: rgb(3, 196, 3);
+}
+
+pre {
+  white-space: pre-wrap;
+}

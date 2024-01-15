@@ -1,0 +1,35 @@
+.section{
+  width: 100%;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  padding: 30px;
+}
+
+.message{
+  border-radius: 5px;
+  max-width: 80%;
+  height: fit-content;
+}
+
+.aiMessage{
+  align-self: self-start;
+  border-radius: 16px 16px 16px 6px;
+  background-color: #404040;
+  padding: 8px 12px;
+}
+
+.humanMessage{
+  align-self: self-end;
+  padding: 8px 12px;
+  background-color: #bc00008e;
+  border-radius: 16px 16px 6px;
+}
